@@ -17,10 +17,10 @@ app.use('/song', SoundRouter);
 
 // Ruta base
 app.get('/', (req, res) => {
-  res.send('MicroServicio Administracion');
+  res.send('Draw the sound');
 });
 
 // Iniciar el servidor
 app.listen(PORT, () => {
-  console.log(`Servidor MicServAdministracion levantado en ${URL}`);
+  console.log(`Draw the sound ${URL}`);
 });
